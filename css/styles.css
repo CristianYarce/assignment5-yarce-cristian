@@ -9,7 +9,6 @@ body {
 }
 
 h1 {
-  margin-top: 20px;
   margin-bottom: 20px;
   color: red;
 }
@@ -31,8 +30,24 @@ h1::after {
 
 .container {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 40px auto 120px;
   text-align: center;
+}
+
+header {
+  text-align: center;
+  background: #333;
+  padding: 20px 0;
+}
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  background: red;
+  padding: 5px;
 }
 
 .contact-form{
@@ -83,4 +98,11 @@ select {
   width: 185px;
   padding: 8px 0;
   border-radius: 4px;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
