@@ -2,9 +2,63 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
   </head>
+
   <body>
+    <form class="firstform" action="" method="post">
+
+      <div class="first-name">
+        <label for="firstname" class="label_input_wrap">First name: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="ex. Juan"/>
+      </div>
+
+      <div class="last-name">
+        <label for="lastname" class="label_input_wrap">Last name: </label>
+        <input type="text" name="lastname" id="lastname" placeholder="ex. Ruiz"/>
+      </div>
+
+      <div class="email">
+        <label for="email" class="label_input_wrap">Email: </label>
+        <input type="email" name="email" id="email" placeholder="ex. contact@gmail.com"/>
+      </div>
+
+      <div class="telephone">
+        <label for="telephone" class="label_input_wrap">Telephone: </label>
+        <input type="tel" name="telephone" id="telephone" placeholder="111 123 1232"/>
+      </div>
+
+      <div class="dropdown">
+        <label for="state" class="label_input_wrap">Choose your service: </label>
+        <select name="service" id="service">
+          <option value="ph">Photography</option>
+          <option value="video">Video</option>
+          <option value="web" selected>Web Design</option>
+          <option value="sm">Social Media</option>
+        </select>
+      </div>
+
+      <div class="message">
+        <label for="message" class="label_input_wrap">Message: </label>
+        <textarea name="message" id="message" rows="5" cols="55" placeholder="Tell me more about what you need"></textarea>
+      </div>
+
+
+      <div class="reset">
+        <input type="reset" value="refresh">
+
+      </div>
+
+      <div class="submit">
+        <input type="submit" name="" value="Send message">
+
+      </div>
+
+    </form>
 
   </body>
 </html>
